@@ -2082,3 +2082,5 @@ ActionController::RoutingError (No route matches [GET] "/authors/1/posts"):
   [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-08-19 14:30:37.802564"], ["updated_at", "2019-08-19 14:30:37.802564"]]
   [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 69.254.174.182 at 2019-08-19 14:30:55 +0000
+Cannot render console from 69.254.174.182! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
